@@ -5,6 +5,7 @@
     background-repeat: no-repeat;
     background-position: center;
     display: inline-block;
+    position: relative;
 }
 
 .cabecalho{
@@ -25,6 +26,7 @@
 
 .lista-menu{
     display: none;
+    position: absolute;
 }
 
 .container__botao:checked~.lista-menu{
